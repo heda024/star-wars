@@ -31,11 +31,39 @@
 	width: 391px;
 	height: 277px;
 	object-fit: cover;
-	padding: 20px;
+	position: absolute;
+	cursor: pointer;
+}
+.category img:hover{
+	transform: scale(1.1);
+	filter: blur(1px);
+}
+.category p{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	font-family: 'star jedi';
+	color: #C3A850;
+	font-size: 50px;
 }
 
 .categories{
-	display: flex;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 391px 391px;
+	grid-template-rows: 277px 277px;
 	justify-content: center;
-	align-items: center;
+	gap: 40px;
 }
+/* .categories > *{
+	/* to prevent hover from triggering in the gaps */
+	/* visibility: visible;
+	transition: opacity 200ms;
+} */
+/* .categories:hover > :not(:hover){ */
+	/* to make all non hovered items fade */
+	/* opacity: 0.5;
+} */ 
+
+
