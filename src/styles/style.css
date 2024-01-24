@@ -13,6 +13,7 @@
 }
 
 /* Main page logo */
+
 .top{
 	display: flex;
 	justify-content: center;
@@ -20,27 +21,21 @@
 }
 
 .logo{
-	width: 351px;
-	height: 147px;
+	width: 300px;
+	height: 120px;
 }
 
-.category-films img{
+/* category images */
+
+.category img{
 	width: 391px;
 	height: 277px;
 	object-fit: cover;
+	padding: 20px;
 }
-.category-people img{
-	width: 391px;
-	height: 277px;
-	object-fit: cover;
-}
-.category-planets img{
-	width: 391px;
-	height: 277px;
-	object-fit: cover;
-}
-.category-vehicles img{
-	width: 391px;
-	height: 277px;
-	object-fit: cover;
+
+.categories{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
