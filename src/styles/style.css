@@ -11,3 +11,17 @@
 	background-size: contain;
 	background-position: center;	
 }
+
+/* Main page logo */
+.top{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.logo{
+	width: 351px;
+	height: 147px;
+}
+
+
