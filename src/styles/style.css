@@ -24,4 +24,23 @@
 	height: 147px;
 }
 
-
+.category-films img{
+	width: 391px;
+	height: 277px;
+	object-fit: cover;
+}
+.category-people img{
+	width: 391px;
+	height: 277px;
+	object-fit: cover;
+}
+.category-planets img{
+	width: 391px;
+	height: 277px;
+	object-fit: cover;
+}
+.category-vehicles img{
+	width: 391px;
+	height: 277px;
+	object-fit: cover;
+}
