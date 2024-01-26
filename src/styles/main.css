@@ -37,7 +37,6 @@
 }
 .category img:hover{
 	transform: scale(1.1);
-	filter: blur(1px);
 }
 .category p{
 	position: relative;
