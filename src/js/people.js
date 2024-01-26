@@ -1,14 +1,7 @@
-const fetchData = async ()=>{
-	const response = await fetch('https://swapi.dev/api/people');
-	const data = await response.json();
-		console.log(data.results);
-	}
-	
-fetchData()
+// fetch('https://swapi.dev/api/people')
+// .then(response => response.json())
+// .then(data => console.log(data.results))
 
-// function displayFilms(data){
-// 	data.forEach(person => {
-// 		console.log(person.name)
-// 	});
-// }
+
+
 

@@ -50,5 +50,14 @@
 .movie p{
 	font-family: 'star jedi';
 	color: #C3A850;
-	padding: 10px;
+	padding: 4px;
+	width: 400px;
 }
+
+.header{
+	color: #fff;
+}
+
+
+
+
