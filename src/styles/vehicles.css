@@ -31,3 +31,24 @@
 	margin-right: 10px;
 	margin-top: -30px;
 }
+
+.vehicles-overview{
+	display: grid;
+	grid-template-columns: repeat(3, 247px);
+	grid-template-rows: repeat(2, 303px);
+	justify-content: space-around;
+	row-gap: 400px;
+	margin-top: 60px;
+}
+
+.vehicle img{
+	width: 247px;
+	height: 303px;
+	object-fit: cover;
+}
+
+.vehicle p{
+	font-family: 'star jedi';
+	color: #C3A850;
+	padding: 10px;
+}
