@@ -50,5 +50,6 @@
 .vehicle p{
 	font-family: 'star jedi';
 	color: #C3A850;
-	padding: 4px;
+	padding: 3px;
+	width: 400px;
 }
