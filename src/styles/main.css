@@ -56,14 +56,50 @@
 	justify-content: center;
 	gap: 40px;
 }
-/* .categories > *{
-	/* to prevent hover from triggering in the gaps */
-	/* visibility: visible;
-	transition: opacity 200ms;
-} */
-/* .categories:hover > :not(:hover){ */
-	/* to make all non hovered items fade */
-	/* opacity: 0.5;
-} */ 
 
+/* Media queries */
 
+@media screen and (max-width: 600px)
+{
+	.hero{
+		height: 150vh;
+	}
+
+	.categories{
+		display: grid;
+		grid-template-columns: 321px;
+		grid-template-rows: repeat(4, 197px);
+		justify-content: center;
+	}
+
+	.category img{
+		width: 321px;
+		height: 197px;
+	}
+
+	.category p{
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px)
+{
+	.categories{
+		margin-top: 150px;
+		display: grid;
+		grid-template-columns: 300px 300px;
+		grid-template-rows: 190px 190px;
+		justify-content: center;
+		column-gap: 60px;
+		row-gap: 150px;
+	}
+
+	.category img{
+		width: 300px;
+		height: 190px;
+	}
+
+	.category p{
+		font-size: 40px;
+	}
+}
