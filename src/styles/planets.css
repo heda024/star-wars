@@ -53,3 +53,50 @@
 	padding: 3px;
 	width: 400px;
 }
+
+@media screen and (max-width: 600px)
+{
+	.hero{
+		height: 550vh;
+	}
+
+	.top{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 30px;
+		margin: 0 auto auto auto;
+		text-align: center;
+	}
+	
+	.planets-overview{
+		display: grid;
+		grid-template-columns: 247px;
+		grid-template-rows: repeat(6, 303px);
+	}
+
+	.planet p{
+		width: 300px;
+	}
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 900px)
+{
+	.hero{
+		height: 250vh;
+	}
+
+	.planets-overview{
+		display: grid;
+		grid-template-columns: repeat(2, 247px);
+		grid-template-rows: repeat(3, 303px);
+		justify-content: space-around;
+		row-gap: 400px;
+		margin-top: 60px;
+	}
+
+	.planet p{
+		width: 300px;
+	}
+}
