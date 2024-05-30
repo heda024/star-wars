@@ -77,7 +77,6 @@ fetch('https://swapi.dev/api/vehicles/7')
 		const manufacturer = document.querySelector('.vehicle-3 > .manu');
 		const manufacturerText = document.createTextNode(data.manufacturer)
 		manufacturer.appendChild(manufacturerText)
-		
 	})
 	.catch(error => console.log(error))
 
